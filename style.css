@@ -1,0 +1,463 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   margin: 0;
+   font-family: Arial,Helvetica,sans-serif;
+   background-image: url("./assets/patrick-tomasso-gMes5dNykus-unsplash.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+/* ---------------------------- Header -------------------------------------- */
+header {
+   /* position: relative; */
+   height: 90px;
+   width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-transform: uppercase;
+}
+
+#header {
+   height: 70%;
+   width: 890px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+/*  ------------- Logo with Brand name ------------- */
+header div aside:first-child {     
+   height: 80%;
+   width: 250px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   color: #957b5f;
+}
+
+header div aside:first-child div {
+   height: 37px;
+   width: 42px;
+   border-style: solid;
+   border-color: #957b5f;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+header div aside:first-child span {
+   font-size: 24px;
+   font-weight: 400;
+}
+
+header div aside:first-child div span {
+   font-size: 30px;
+}
+/* ---------------------------------------------------- */
+
+/* ----------------- Navigation Elements -------------- */
+header div aside:last-child {
+   height: 60%;
+   width: 600px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+header div aside:last-child nav {
+   width: 100%;
+   height: 100%;
+   display: flex;
+}
+
+header div aside:last-child nav ul {
+   height: 100%;
+   width: 100%;
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+header div aside:last-child nav ul li {
+   display: inline;
+   padding-left: 90px;
+   font-size: 15px;
+   transition: 0.7s;
+   cursor: pointer;
+}
+
+header div aside:last-child nav ul li:hover {
+   color: #957b5f;
+  
+}
+/* ----------------------------------------------------------------- */
+
+/* -------------------------------- End of Header ---------------------------------------------------- */
+
+
+
+/* ---------------------------------- Projects Section ----------------------------------------- */
+
+
+#photo-space {
+   
+   height: 75vh;
+   width: 100vw;
+   
+}
+
+#projects-section {
+   height: 1950px;
+   width: 100vw;
+   background: #3b4148;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#projects-box {
+   height: 95%;
+   width: 900px;
+}
+
+#projects-box h1 {
+   color: #957b5f;
+   font-size: 33px;
+   text-transform: uppercase;
+   font-weight: 600;
+   font-family: Arial,Helvetica,sans-serif;
+   word-spacing: 3px;
+   letter-spacing: 4px;
+}
+
+#projects-box h2 {
+   color: rgb(213,213,213);
+   font-size: 23px;
+   font-weight: 200;
+   text-transform: uppercase;
+   font-family: Arial,Helvetica,sans-serif;
+   word-spacing: 5px;
+   letter-spacing: 3px;
+   margin-top: 10px;
+}
+
+
+.portfolio-project {
+   height: 400px;
+   width: 100%;
+   margin-top: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.portfolio-project aside:first-child {
+   height: 360px;
+   width: 488px;
+}
+
+.portfolio-project aside:first-child img {
+   height: 360px;
+   width: 488px;
+}
+
+
+.portfolio-project aside:last-child {
+   height: 70%;
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.portfolio-project aside:last-child span {
+   color: rgb(213,213,213);
+   font-size: 17px;
+   letter-spacing: 2px;
+}
+
+.portfolio-project aside:last-child h3 {
+   color: #957b5f;
+   width: 230px;
+   font-size: 28px;
+   text-transform: uppercase;
+   font-weight: 600;
+   word-spacing: 4px;
+   letter-spacing: 2px;
+}
+
+.portfolio-project aside:last-child p {
+   width: 250px;
+   color: rgb(213,213,213);
+   font-size: 15px;
+   font-weight: 100;
+   word-spacing: 1px;
+   font-weight: lighter;
+}
+
+.portfolio-project aside:last-child a {
+   font-size: 16px;
+   color: rgb(213,213,213);
+   text-decoration: none;
+   transition: 0.9s;
+   font-weight: 200;
+}
+
+.portfolio-project aside:last-child a:hover {
+   color: #957b5f;
+   font-size: 17px;
+}
+
+
+/* ---------------------------------- End of Projects-Section -------------------------------------------------- */
+
+/* ----------------------------------- News Section -------------------------------------------------- */
+
+#news-section {
+   height: 800px;
+   width: 100vw;
+   background: #3b4148;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+
+#news-section h2 {
+   margin-right: 670px;
+   color: rgb(213,213,213);
+   text-transform: uppercase;
+   word-spacing: 4px;
+   letter-spacing: 4px;
+   font-weight: 100;
+}
+
+#news-box {
+   height: 680px;
+   width: 900px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.news-place {
+   height: 500px;
+   width: 250px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.news-place h4 {
+   font-size: 120px;
+   color: #957b5f;
+   letter-spacing: 35px;
+   font-weight: 900;
+   margin-top: 10px;
+   align-self: center;
+}
+
+.date {
+   font-size: 15px;
+   color: rgb(213,213,213);
+   margin-top: 10px;
+   align-self: center;
+   word-spacing: 8px;
+   letter-spacing: 5px;
+}
+
+.news-place p {
+   font-size: 18px;
+   color: rgb(213,213,213);
+   margin-top: 30px;
+   font-family: sans-serif;
+   word-spacing: 2px;
+}
+
+.project-link {
+   text-decoration: none;
+   margin-top: 150px;
+}
+
+.project-link a {
+   text-decoration: none;
+   color: rgb(213,213,213);
+   font-size: 17px;
+   transition: 0.9s;
+   text-transform: capitalize;
+}
+
+.project-link a:hover {
+   color: #957b5f;
+   font-size: 18px;
+}
+
+/* --------------------------------- End Of News Section ------------------------------------------------ */
+
+/* --------------------------------- Contact Info Section ---------------------------------------------- */
+
+#contact-info-section {
+   height: 400px;
+   width: 100vw;
+   background-color: rgb(46, 43, 43);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#contact-info-box {
+   height: 340px;
+   width: 900px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#contact-info-box h5 {
+   color: rgb(213,213,213);
+   font-size: 15px;
+   word-spacing: 4px;
+   letter-spacing: 4px;
+   font-weight: 100;
+   text-transform: uppercase;
+}
+
+/* ---------------------------- Get in Touch side----------------------------------------- */
+
+#get-in-touch {
+   height: 310px;
+   width: 430px;
+}
+
+#address {
+   height: 120px;
+   width: 430px;
+   margin-top: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#address aside:first-child {
+   height: 100px;
+   width: 200px;
+}
+
+#address aside span{
+   color: rgb(213,213,213);
+   font-size: 15px;
+   display: inline-block;
+   margin-top: 7px;
+}
+
+#address aside:last-child {
+   height: 100px;
+   width: 200px;
+}
+
+#social-media {
+   height: 30px;
+   width: 90px;
+}
+
+#social-media i img{
+   height: 24px;
+   width: 24px;
+   color: #957b5f;
+}
+
+/* ---------------------------- Contact Us ------------------------------------ */
+
+#contact-us {
+   height: 310px;
+   width: 430px;
+}
+
+#contact-us div{
+   height: 290px;
+   width: 420px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#contact-us aside {
+   height: 280px;
+   width: 210px;
+}
+
+#contact-us aside:first-child form {
+   margin-top: 20px;
+}
+
+#contact-us aside:first-child label {
+   font-size: 15px;
+   color: rgb(213,213,213);
+   margin-top: 40px;
+   text-transform: capitalize;
+}
+
+#contact-us aside:first-child input {
+   height: 36px;
+   width: 187px;
+   margin-top: 7px;
+   background-color: rgb(46, 43, 43);
+   border: 1px solid rgb(213,213,213);
+}
+
+#contact-us aside:last-child form {
+   margin-top: 20px;
+   height: 160px;
+}
+
+#contact-us aside:last-child label {
+   font-size: 15px;
+   color: rgb(213,213,213);
+   text-transform: capitalize;
+}
+
+#message {
+   height: 117px;
+   width: 199px;
+   margin-top: 7px;
+   background-color: rgb(46, 43, 43);
+   border: 1px solid rgb(213,213,213);
+   text-align: start;
+}
+
+#send-button {
+   height: 36px;
+   width: 93px;
+   background-color: #C6A47E;
+   border: none;
+   align-self: flex-end;
+   margin-left: 108px;
+   margin-top: 14px;
+   transition: 0.8s;
+}
+
+#send-button:hover {
+   background-color: #957b5f;
+}
+
+/* ---------------------------------- End Of Contact Us--------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
